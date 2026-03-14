@@ -171,7 +171,7 @@ wss.on("connection", (ws) => {
 
 server.listen(PORT, () => {
   console.log("");
-  console.log("  Bridge Server");
+  console.log("  Figdex Bridge Server");
   console.log(`  http://localhost:${PORT}`);
   console.log("");
   console.log("  1. Open Figma > Plugins > Figdex Bridge");
