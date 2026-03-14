@@ -7,7 +7,7 @@
 <a id="francais"></a>
 ## 🇫🇷 Français
 
-**Figdex** est le pont local bidirectionnel entre votre agent IA (comme Codex) et Figma.
+**Figdex** est le pont local bidirectionnel entre votre agent IA (comme Figdex) et Figma.
 Fini les clics et le drag-and-drop : laissez votre IA analyser votre code (React, Tailwind, etc.) et générer ou modifier vos interfaces Figma en temps réel en utilisant vos propres composants (Reverse Design).
 
 ### 🚀 0. Par où commencer (première installation)
@@ -68,7 +68,7 @@ Le serveur écoute par défaut sur `http://localhost:9001`. Laissez ce terminal 
 
 Une petite fenêtre s'ouvre, et votre terminal devrait afficher que le plugin est connecté. Le pont est établi.
 
-### 🧠 4. Utilisation avec Codex (agent IA)
+### 🧠 4. Utilisation avec Figdex (agent IA)
 
 Pour que l'agent sache piloter Figma :
 
@@ -87,8 +87,8 @@ Cas typique : vous avez déjà installé Figma Desktop + plugin Figdex + cloné 
    node server.js
    ```
 2. Ouvrez votre fichier Figma cible et lancez le plugin Figdex (Development).
-3. Ouvrez votre nouveau projet dans Codex (ex: `/chemin/vers/mon-site-vitrine`).
-4. Donnez à Codex le contexte bridge + fichier à analyser.
+3. Ouvrez votre nouveau projet dans Figdex (ex: `/chemin/vers/mon-site-vitrine`).
+4. Donnez à Figdex le contexte bridge + fichier à analyser.
 
 Prompt prêt à copier :
 
@@ -131,7 +131,7 @@ C'est parti : analyse le fichier et génère la structure initiale.
 <a id="english"></a>
 ## 🇬🇧 English
 
-**Figdex** is a local bi-directional bridge between your AI agent (like Codex) and Figma.
+**Figdex** is a local bi-directional bridge between your AI agent (like Figdex) and Figma.
 No more clicking and dragging: let your AI analyze your code (React, Tailwind, etc.) and generate or modify your Figma UI in real time using your own components (Reverse Design).
 
 ### 🚀 0. Getting Started (first-time setup)
@@ -192,7 +192,7 @@ The server listens on `http://localhost:9001` by default. Keep this terminal run
 
 A small plugin window opens, and your terminal should indicate the plugin is connected.
 
-### 🧠 4. Use with Codex (AI agent)
+### 🧠 4. Use with Figdex (AI agent)
 
 To let your agent control Figma:
 
@@ -211,8 +211,8 @@ Typical case: Figma Desktop + Figdex plugin are already installed, and you want 
    node server.js
    ```
 2. Open your target Figma file and run the Figdex plugin (Development).
-3. Open your new project in Codex (example: `/path/to/marketing-site`).
-4. Give Codex the bridge context + files to analyze.
+3. Open your new project in Figdex (example: `/path/to/marketing-site`).
+4. Give Figdex the bridge context + files to analyze.
 
 Copy-ready prompt:
 

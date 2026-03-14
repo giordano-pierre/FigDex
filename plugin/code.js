@@ -1,5 +1,5 @@
 // ============================================================
-// Bridge for Claude Code — Figma Plugin
+// Figdex Bridge — Figma Plugin
 //
 // Receives commands from the UI (WebSocket relay) and executes
 // them against the Figma Plugin API.

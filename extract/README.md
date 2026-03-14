@@ -1,12 +1,12 @@
 # Extract your Design System
 
-These scripts extract component keys, variable keys, and text style keys from any Figma DS library. The output is JSON files that Claude Code can use to import your real DS assets.
+These scripts extract component keys, variable keys, and text style keys from any Figma DS library. The output is JSON files that Figdex can use to import your real DS assets.
 
 ## Prerequisites
 
 1. Bridge server running: `node server/server.js`
 2. Your DS library file open in Figma
-3. Bridge plugin active (Plugins > Bridge for Claude Code)
+3. Bridge plugin active (Plugins > Figdex Bridge)
 
 ## Usage
 
@@ -88,4 +88,4 @@ cat extract/extract-text-styles.js | jq -Rs '{"action":"runScript","code":.}' | 
 - For large libraries, extraction may take a few seconds
 - If you get a timeout, the library may have too many items on one page — try opening a specific page first
 - Re-run extraction when your DS is updated (new components, renamed tokens, etc.)
-- Add the registries JSON to your project's CLAUDE.md so Claude Code knows your DS keys
+- Add the registries JSON to your project's docs/AGENT_RULES.md so Figdex knows your DS keys

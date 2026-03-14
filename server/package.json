@@ -1,7 +1,7 @@
 {
   "name": "bridge-server",
   "version": "1.0.0",
-  "description": "Local server connecting Claude Code to Figma Plugin API via WebSocket",
+  "description": "Local server connecting Figdex to Figma Plugin API via WebSocket",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

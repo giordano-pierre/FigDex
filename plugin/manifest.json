@@ -1,5 +1,5 @@
 {
-  "name": "Bridge for Claude Code",
+  "name": "Figdex Bridge",
   "id": "1612231505398639330",
   "api": "1.0.0",
   "main": "code.js",
@@ -8,7 +8,7 @@
   "capabilities": [],
   "networkAccess": {
     "allowedDomains": ["http://localhost:9001", "ws://localhost:9001"],
-    "reasoning": "Connects to local Bridge server for Claude Code integration. All traffic stays on localhost.",
+    "reasoning": "Connects to local Bridge server for Figdex integration. All traffic stays on localhost.",
     "devAllowedDomains": ["http://localhost:9001", "ws://localhost:9001"]
   },
   "editorType": ["figma"]

@@ -1,10 +1,10 @@
 // ============================================================
 // Bridge Server
 //
-// Connects Claude Code (HTTP) to Figma Plugin (WebSocket).
+// Connects Figdex (HTTP) to Figma Plugin (WebSocket).
 //
 // Architecture:
-//   Claude Code -> curl POST /command -> Server -> WebSocket -> Plugin UI -> Plugin Code -> Figma API
+//   Figdex -> curl POST /command -> Server -> WebSocket -> Plugin UI -> Plugin Code -> Figma API
 //                                                                        <- result <-
 //
 // Endpoints:
@@ -174,9 +174,9 @@ server.listen(PORT, () => {
   console.log("  Bridge Server");
   console.log(`  http://localhost:${PORT}`);
   console.log("");
-  console.log("  1. Open Figma > Plugins > Bridge for Claude Code");
+  console.log("  1. Open Figma > Plugins > Figdex Bridge");
   console.log("  2. The plugin will auto-connect here");
-  console.log("  3. Claude Code can now send commands");
+  console.log("  3. Figdex can now send commands");
   console.log("");
   console.log("  Waiting for plugin connection...");
   console.log("");
